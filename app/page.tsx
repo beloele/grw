@@ -28,7 +28,7 @@ export default function Home() {
             </a>
           </Link>
         </div>
-      <div className="text-center max-w-2xl mx-auto" style="margin-top: 70px;">
+      <div className="text-center max-w-2xl mx-auto">
         <section className="mb-4">
           <h2 className="text-2xl font-semibold mb-2">Grandpashabet Nedir?</h2>
           <p className="text-sm md:text-base">
