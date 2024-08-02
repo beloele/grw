@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { TawkMessenger } from '@tawk.to/tawk-messenger-react';
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import Image from "next/image";
 import Link from "next/link";
 
@@ -106,7 +106,7 @@ export default function Home() {
           </p>
         </section>
       </div>
-      <TawkMessenger propertyId="648a2bbbcc26a871b0229500" widgetId="1h2trlll4" />
+      <TawkMessengerReact propertyId="648a2bbbcc26a871b0229500" widgetId="1h2trlll4" />
     </main>
   );
 }
