@@ -88,7 +88,7 @@ export default function Home() {
         <section className="mb-4">
           <h2 className="text-2xl font-semibold mb-2">Mobil Uyumlu Platform</h2>
           <p className="text-sm md:text-base">
-            Grandpashabet, kullanıcılarına mobil uyumlu bir platform sunarak, bahis ve oyun keyfini her an her yerde yaşama imkanı verir. Mobil cihazlardan kolayca erişilebilen site, kullanıcı dostu tasarımı ve hızlı yükleme süreleri ile öne çıkar. Kesintisiz ve güvenli bir bahis deneyimi için Grandpashabet'i tercih edebilirsiniz.
+            Grandpashabet, kullanıcılarına mobil uyumlu bir platform sunarak, bahis ve oyun keyfini her an her yerde yaşama imkanı verir. Mobil cihazlardan kolayca erişilebilen site, kullanıcı dostu tasarımı ve hızlı yükleme süreleri ile öne çıkar. Kesintisiz ve güvenli bir bahis deneyimi için Grandpashabet&apos;i tercih edebilirsiniz.
           </p>
         </section>
 
