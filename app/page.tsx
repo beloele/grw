@@ -29,7 +29,9 @@ export default function Home() {
           window.Tawk_API.hideWidget();
         }
       };
-      s0.parentNode.insertBefore(s1, s0);
+      if (s0 && s0.parentNode) {
+        s0.parentNode.insertBefore(s1, s0);
+      }
     })();
   }, []);
 
