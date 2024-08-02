@@ -4,8 +4,27 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Link from 'next/link';
 
-
 export default function Home() {
+  useEffect(() => {
+    // Tawk.to script
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement('script'),
+        s0 = document.getElementsByTagName('script')[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/648a2bbbcc26a871b0229500/1h2trlll4';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s1.onload = function() {
+        if (window.Tawk_API) {
+          window.Tawk_API.hideWidget();
+        }
+      };
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  }, []);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-8 md:p-24">
       <h1 className="text-4xl font-bold text-center mb-6">Grandpashabet Güncel Giriş 2024</h1>
@@ -37,19 +56,14 @@ export default function Home() {
           </a>
         </Link>
       </div>
-      <div className="mt-8" style={{
-        marginTop: 40
-      }}>
-      
+      <div className="mt-8" style={{ marginTop: 40 }}>
         <Link href="https://grandpashabet1954.com" passHref>
           <a className="inline-block px-8 py-4 bg-[#202900] text-white font-semibold rounded-md transition-transform duration-300 transform hover:scale-105 hover:bg-[#98c200]">
             Grandpashabet Giriş İçin Tıkla
           </a>
         </Link>
       </div>
-      <div className="text-center max-w-2xl mx-auto"  style={{
-        marginTop: 40
-      }}>
+      <div className="text-center max-w-2xl mx-auto" style={{ marginTop: 40 }}>
         <section className="mb-4">
           <h2 className="text-2xl font-semibold mb-2">Grandpashabet Nedir?</h2>
           <p className="text-sm md:text-base">
@@ -74,7 +88,7 @@ export default function Home() {
         <section className="mb-4">
           <h2 className="text-2xl font-semibold mb-2">Mobil Uyumlu Platform</h2>
           <p className="text-sm md:text-base">
-            Grandpashabet, kullanıcılarına mobil uyumlu bir platform sunarak, bahis ve oyun keyfini her an her yerde yaşama imkanı verir. Mobil cihazlardan kolayca erişilebilen site, kullanıcı dostu tasarımı ve hızlı yükleme süreleri ile öne çıkar. Kesintisiz ve güvenli bir bahis deneyimi için Grandpashabet&#39;i tercih edebilirsiniz.
+            Grandpashabet, kullanıcılarına mobil uyumlu bir platform sunarak, bahis ve oyun keyfini her an her yerde yaşama imkanı verir. Mobil cihazlardan kolayca erişilebilen site, kullanıcı dostu tasarımı ve hızlı yükleme süreleri ile öne çıkar. Kesintisiz ve güvenli bir bahis deneyimi için Grandpashabet'i tercih edebilirsiniz.
           </p>
         </section>
 
@@ -84,24 +98,6 @@ export default function Home() {
             Grandpashabet, kullanıcı güvenliğini ve veri korumasını ön planda tutan bir bahis sitesidir. Modern şifreleme teknolojileri ile kullanıcı bilgilerini korur ve güvenli bir oyun ortamı sağlar. Sorumlu oyun ilkelerine bağlı kalarak, kullanıcılarına adil ve şeffaf bir oyun deneyimi sunar.
           </p>
         </section>
-        <script type="text/javascript">
-        {`
-              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-              (function(){
-              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-              s1.async=true;
-              s1.src='https://embed.tawk.to/648a2bbbcc26a871b0229500/1h2trlll4';
-              s1.charset='UTF-8';
-              s1.setAttribute('crossorigin','*');
-              s1.onload = function() {
-                if (window.Tawk_API) {
-                  window.Tawk_API.hideWidget();
-                }
-              };
-              s0.parentNode.insertBefore(s1,s0);
-              })();
-            `}
-        </script>
       </div>
     </main>
   );
