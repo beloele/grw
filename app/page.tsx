@@ -84,6 +84,24 @@ export default function Home() {
             Grandpashabet, kullanıcı güvenliğini ve veri korumasını ön planda tutan bir bahis sitesidir. Modern şifreleme teknolojileri ile kullanıcı bilgilerini korur ve güvenli bir oyun ortamı sağlar. Sorumlu oyun ilkelerine bağlı kalarak, kullanıcılarına adil ve şeffaf bir oyun deneyimi sunar.
           </p>
         </section>
+        <script type="text/javascript">
+        {`
+              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+              (function(){
+              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/648a2bbbcc26a871b0229500/1h2trlll4';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s1.onload = function() {
+                if (window.Tawk_API) {
+                  window.Tawk_API.hideWidget();
+                }
+              };
+              s0.parentNode.insertBefore(s1,s0);
+              })();
+            `}
+        </script>
       </div>
     </main>
   );
